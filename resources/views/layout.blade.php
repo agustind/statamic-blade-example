@@ -12,7 +12,7 @@
     <body class="bg-gray-200 font-sans leading-normal text-grey-800">
         
         <div class="mb-12 px-12 py-8 text-2xl bg-white">
-            <h3>Feierabend Radio</h3>
+            <h3>Testing app</h3>
         </div>
         
         @yield('body')

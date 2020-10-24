@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use \Statamic\Facades\Entry;
 
 class PagesController extends Controller
 {
@@ -12,7 +13,8 @@ class PagesController extends Controller
     public function about(){
         
 
-        $entries = \Statamic\Entries\Entry::whereCollection('news')->values()->all();
+        $entries = Entry::whereCollection('news')->all();
+        
         foreach($entries as $entry){
 
             echo $entry->value('title') . '<br>';
@@ -26,5 +28,5 @@ class PagesController extends Controller
     }
 
 
-    
+
 }

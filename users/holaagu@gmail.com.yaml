@@ -1,0 +1,6 @@
+name: Editor
+super: false
+roles:
+  - editor
+id: 80d1ccdb-b267-46de-aef3-7f5369717268
+password_hash: $2y$10$flllAwPKnEp9JBgtMyIm9.a4qiSxruPFRNbuIhYEqepJd9s9UCVDO

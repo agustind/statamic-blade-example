@@ -1,0 +1,9 @@
+title: Tracks
+template: default
+layout: layout
+revisions: false
+route: '/tracks/{id}'
+sort_dir: asc
+date_behavior:
+  past: public
+  future: private

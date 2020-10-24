@@ -1,0 +1,11 @@
+name: Agu
+super: true
+id: 5feb4da8-59c7-4988-907e-be706d6cbee3
+password_hash: $2y$10$BeZI0TNtVWntwRlHe69NtOsOUgc5aLt1ab869em62CBFtQPQzORCG
+preferences:
+  collections:
+    news:
+      columns:
+        - title
+        - slug
+        - date

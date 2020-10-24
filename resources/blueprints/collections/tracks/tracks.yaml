@@ -1,0 +1,67 @@
+title: Tracks
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: title
+        field:
+          type: text
+          required: true
+          validate:
+            - required
+      -
+        handle: artist
+        field:
+          multiple: false
+          clearable: false
+          searchable: true
+          taggable: true
+          push_tags: false
+          cast_booleans: false
+          display: Artist
+          type: select
+          icon: select
+          listable: hidden
+      -
+        handle: content
+        field:
+          type: markdown
+          display: Content
+          localizable: true
+      -
+        handle: author
+        field:
+          type: users
+          display: Author
+          default: current
+          localizable: true
+          max_items: 1
+      -
+        handle: date_played
+        field:
+          mode: single
+          time_enabled: false
+          time_required: false
+          earliest_date: '1900-01-01'
+          full_width: false
+          inline: false
+          columns: 1
+          rows: 1
+          display: 'Date played'
+          type: date
+          icon: date
+          listable: hidden
+          validate:
+            - required
+  sidebar:
+    display: Sidebar
+    fields:
+      -
+        handle: slug
+        field:
+          type: slug
+          required: true
+          localizable: true
+          validate:
+            - required

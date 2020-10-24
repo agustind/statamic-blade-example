@@ -1,0 +1,12 @@
+title: News
+template: news/show
+layout: layout
+revisions: false
+inject:
+    view_model: App\ViewModels\News
+route: '/news/{slug}'
+date: true
+sort_dir: asc
+date_behavior:
+  past: public
+  future: private

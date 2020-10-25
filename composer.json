@@ -1,8 +1,15 @@
 {
-    "name": "statamic/statamic",
-    "description": "Statamic",
-    "keywords": ["statamic", "cms", "flat file", "laravel"],
+    "name": "testing/testing",
+    "description": "Testing",
+    "keywords": ["cms", "flat file", "laravel"],
     "type": "project",
+    "repositories": [
+        {
+            "name": "statamic/cms",
+            "type": "vcs",
+            "url": "git@github.com:agustind/cms.git"
+        }
+    ],
     "require": {
         "php": "^7.3",
         "edalzell/blade-directives": "^1.6",
@@ -11,7 +18,7 @@
         "guzzlehttp/guzzle": "^7.0.1",
         "laravel/framework": "^8.0",
         "laravel/tinker": "^2.0",
-        "statamic/cms": "3.0.*"
+        "statamic/cms": "3.0.0"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.5",

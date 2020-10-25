@@ -7,7 +7,7 @@
         <div class="grid grid-cols-4 gap-4">
             @collection('news')
 
-                <a href="/news/{{ $entry['slug'] }}" class="opacity-75 hover:opacity-100 p-2 bg-white rounded w-64">
+                <a href="/news/{{ $entry['slug'] }}" class="opacity-75 hover:opacity-100 p-2 bg-white rounded">
                     <div class="bg-cover bg-no-repeat bg-center pb-48" style="background-image: url({{ $entry['image'] }})"></div>
                     <div class="mt-4 h-">{{ $entry['title'] }}</div>
                 </a>

@@ -4,87 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "59689b58b0c85868047dda291f4485fa",
+    "content-hash": "57a58ef862b1f2d2eacd3db8a2a1d74e",
     "packages": [
-        {
-            "name": "agustind/cms",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:agustind/cms.git",
-                "reference": "7e6307a0b2e1437a71ef405f9f2aea093968771e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/agustind/cms/zipball/7e6307a0b2e1437a71ef405f9f2aea093968771e",
-                "reference": "7e6307a0b2e1437a71ef405f9f2aea093968771e",
-                "shasum": ""
-            },
-            "require": {
-                "composer/composer": "^1.10",
-                "facade/ignition-contracts": "^1.0",
-                "guzzlehttp/guzzle": "^6.3 || ^7.0",
-                "laravel/framework": "^6.0 || ^7.0 || ^8.0",
-                "laravel/helpers": "^1.1",
-                "league/commonmark": "^1.5",
-                "league/csv": "^9.0",
-                "league/glide": "^1.1",
-                "michelf/php-smartypants": "^1.8",
-                "pixelfear/composer-dist-plugin": "^0.1.0",
-                "spatie/blink": "^1.1.2",
-                "statamic/stringy": "^3.1",
-                "symfony/var-exporter": "^4.3",
-                "symfony/yaml": "^4.1 || ^5.1",
-                "ueberdosis/html-to-prosemirror": "^1.0",
-                "ueberdosis/prosemirror-to-html": "^2.0",
-                "wilderborn/partyline": "^1.0"
-            },
-            "require-dev": {
-                "fzaninotto/faker": "~1.4",
-                "google/cloud-translate": "^1.6",
-                "mockery/mockery": "^1.2.3",
-                "orchestra/testbench": "^4.0 || ^5.0 || ^6.0"
-            },
-            "default-branch": true,
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Statamic\\Providers\\StatamicServiceProvider"
-                    ],
-                    "aliases": {
-                        "Statamic": "Statamic\\Statamic"
-                    }
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Statamic\\": "src/"
-                },
-                "files": [
-                    "src/helpers.php"
-                ]
-            },
-            "autoload-dev": {
-                "psr-4": {
-                    "Tests\\": "tests",
-                    "Foo\\Bar\\": "tests/fixtures/Addon"
-                }
-            },
-            "license": [
-                "mit"
-            ],
-            "description": "Test cms",
-            "keywords": [
-                "cms",
-                "laravel"
-            ],
-            "support": {
-                "source": "https://github.com/agustind/cms/tree/master",
-                "issues": "https://github.com/agustind/cms/issues"
-            },
-            "time": "2020-10-25T21:03:29+00:00"
-        },
         {
             "name": "asm89/stack-cors",
             "version": "v2.0.1",
@@ -8259,16 +8180,16 @@
         },
         {
             "name": "phpunit/php-text-template",
-            "version": "2.0.3",
+            "version": "2.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-text-template.git",
-                "reference": "18c887016e60e52477e54534956d7b47bc52cd84"
+                "reference": "5da5f67fc95621df9ff4c4e5a84d6a8a2acf7c28"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-text-template/zipball/18c887016e60e52477e54534956d7b47bc52cd84",
-                "reference": "18c887016e60e52477e54534956d7b47bc52cd84",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-text-template/zipball/5da5f67fc95621df9ff4c4e5a84d6a8a2acf7c28",
+                "reference": "5da5f67fc95621df9ff4c4e5a84d6a8a2acf7c28",
                 "shasum": ""
             },
             "require": {
@@ -8306,7 +8227,7 @@
             ],
             "support": {
                 "issues": "https://github.com/sebastianbergmann/php-text-template/issues",
-                "source": "https://github.com/sebastianbergmann/php-text-template/tree/2.0.3"
+                "source": "https://github.com/sebastianbergmann/php-text-template/tree/2.0.4"
             },
             "funding": [
                 {
@@ -8314,7 +8235,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-09-28T06:03:05+00:00"
+            "time": "2020-10-26T05:33:50+00:00"
         },
         {
             "name": "phpunit/php-timer",
@@ -9701,9 +9622,7 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "agustind/cms": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
